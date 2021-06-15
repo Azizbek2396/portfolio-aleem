@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'MuseoSans-100';
+    src: url(/fonts/MuseoSans-100.otf) ;
+}
+
+@font-face {
+    font-family: 'MuseoSans-700';
+    src: url(/fonts/MuseoSans_700.otf);
+}
+
+@font-face {
+    font-family: 'MuseoSans-300';
+    src: url(/fonts/MuseoSans-300.otf);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: 'MuseoSans-100', sans-serif;
+}
+
+.clearfix,
+.clearfix::after,
+.clearfix::before
+{
+    display: table;
+    content: "";
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 30px 30px;
+}
+
+/* Header */
+header {
+    margin-bottom: 15px;
+}
+
+.header-name {
+    float: left;
+}
+
+.full-name {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 0;
+} 
+
+.full-name span {
+    font-family: 'MuseoSans-700', sans-serif;
+    font-weight: bold;
+}
+
+.profession {
+    margin: 0;
+    font-family: 'MuseoSans-300';
+    font-size: 20px;
+    color: #868686;
+}
+
+.profession span {
+    font-family: 'MuseoSans-700';
+    font-size: 25px;
+    color: #da430e;
+    font-weight: bold;
+}
+
+.image {
+    float: left;
+    margin-left: 407px;
+}
+
+.image img {
+    width: 86px;
+    border-radius: 50%;
+}
+
+/* End Header */
+
+/* Main */
+
+/* Main-left */
+
+.main {
+    width: 100%;
+}
+
+.main-left {
+    float: left;
+    width: 40%;
+    padding-right: 20px;
+}
+
+.personal {
+    margin-bottom: 40px;
+}
+
+table
+{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.personal table thead tr td, 
+.blogs table thead tr td, 
+.misc table thead tr td 
+
+{
+    font-family: 'MuseoSans-700';
+    font-size: 25px;
+    color: #333;
+    width: 45%;
+}
+
+.personal table td,
+.blogs table td,
+.misc table td
+{
+    border-bottom: 1px solid #b7b7b7;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.personal table tbody td:nth-child(odd), 
+.misc table tbody td:nth-child(odd) 
+{
+    font-family: 'MuseoSans-300';
+    font-size: 18px;
+    color: #333;
+}
+
+.personal table tbody td:nth-child(even), 
+.misc table tbody td:nth-child(even) 
+{
+    font-family: 'MuseoSans-300';
+    font-size: 18px;
+    color: #868686;
+}
+
+
+.portfolio {
+    margin-bottom: 40px;
+}
+
+.portfolio ul, 
+.references ul
+{
+    padding-left: 0;
+}
+
+.portfolio li,
+.references li
+{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #868686;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.portfolio li:first-child, 
+.references li:first-child 
+{
+    font-family: 'MuseoSans-700';
+    font-size: 25px;
+    color: #333;
+}
+
+.portfolio li:nth-child(2) span{
+    color: #339900;
+}
+
+.portfolio li:nth-child(4) span{
+    color: #da430e;
+}
+
+
+
+.blogs,
+.misc
+{
+    margin-bottom: 40px;
+}
+
+.blogs table tbody td:nth-child(odd) {
+    font-family: 'MuseoSans-300';
+    font-size: 18px;
+    color: #868686;
+}
+
+.blogs table tbody td:nth-child(even) {
+    font-family: 'MuseoSans-300';
+    font-size: 18px;
+    color: #339900;
+    text-align: right;
+}
+
+.references li:last-child {
+    border-bottom: none;
+}
+
+.main-right {
+    float: left;
+    width: 60%;
+}
+
+
+/* Main-right */
+
+.awards,
+.competencies {
+    float: left;
+    padding: 0 20px;
+}
+
+.awards ul,
+.competencies ul
+{
+    padding-left: 0;
+    margin: 0;
+}
+
+.awards li,
+.competencies li
+{
+    font-family: 'MuseoSans-300';
+    font-size: 18px;
+    list-style: none;
+    padding: 10px 0;
+    color: #868686;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.awards li:first-child, 
+.competencies li:first-child 
+{
+    font-family: 'MuseoSans-700';
+    font-size: 25px;
+    color: #333;
+}
+
+.awards li span {
+    color: #da430e;
+}
+
+/* End Main */
