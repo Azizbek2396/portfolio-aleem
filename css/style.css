@@ -252,4 +252,122 @@ table
     color: #da430e;
 }
 
+
+.experience {
+    width: 100%;
+    text-align: center;
+}
+
+.managerGraphics {
+    position: relative;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 14px;
+    background-color: #da430e;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.managerGraphics h3,
+.managerGraphics p {
+    margin: 0;
+}
+
+.managerGraphics h3 {
+    font-family: 'MuseoSans-500', sans-serif;
+}
+
+.managerGraphics p {
+    font-family: 'MuseoSans-300', sans-serif;
+}   
+
+.managerGraphics::after {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #da430e;
+    top: 54px;
+    left: 90px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+    border-radius: 50%;
+    background-color: #8c8c8c;
+}
+
+.vl {
+    width: 8px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccc;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.vl::after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 2px;
+    left: 0;
+    top: -1px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.vl::before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 2px;
+    left: 0;
+    bottom: -1px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.vl-last {
+    width: 8px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccc;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.vl-last::after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 2px;
+    left: 0;
+    top: -1px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.vl-last::before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    left: 0;
+    bottom: -5px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
 /* End Main */
