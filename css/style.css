@@ -255,7 +255,15 @@ table
 
 .experience {
     width: 100%;
+    height: 480px;
     text-align: center;
+}
+
+.experience h2, 
+.education h2 
+{
+    font-family: 'MuseoSans-700', sans-serif;
+    font-size: 25px;
 }
 
 .managerGraphics {
@@ -266,23 +274,10 @@ table
     color: #fff;
     font-size: 14px;
     background-color: #da430e;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 3px;
     margin-bottom: 20px;
 }
-
-.managerGraphics h3,
-.managerGraphics p {
-    margin: 0;
-}
-
-.managerGraphics h3 {
-    font-family: 'MuseoSans-500', sans-serif;
-}
-
-.managerGraphics p {
-    font-family: 'MuseoSans-300', sans-serif;
-}   
 
 .managerGraphics::after {
     position: absolute;
@@ -296,6 +291,30 @@ table
     left: 90px;
 }
 
+.managerGraphics h3,
+.sr-designer h3,
+.teamlead h3,
+.e-commerce123 h3,
+.acacia h3,
+.managerGraphics p, 
+.teamlead p, 
+.sr-designer p, 
+.e-commerce123 p, 
+.acacia p 
+{
+    margin: 0;
+}
+
+.managerGraphics h3 {
+    font-family: 'MuseoSans-500', sans-serif;
+}
+
+.managerGraphics p {
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 18x;
+}   
+
+
 .circle {
     width: 10px;
     height: 10px;
@@ -304,6 +323,57 @@ table
     margin-bottom: 1px;
     border-radius: 50%;
     background-color: #8c8c8c;
+    position: relative;
+}
+
+.circle1::after {
+    position: absolute;
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 15px;
+    color: #333;
+    top: -3px;
+    left: -50px;
+    content: "2012";
+}
+
+.circle2::after {
+    position: absolute;
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 15px;
+    color: #333;
+    top: -3px;
+    left: 25px;
+    content: "2009";
+}
+
+.circle3::after {
+    position: absolute;
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 15px;
+    color: #333;
+    top: -3px;
+    left: -50px;
+    content: "2007";
+}
+
+.circle4::after {
+    position: absolute;
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 15px;
+    color: #333;
+    top: -3px;
+    left: 25px;
+    content: "2006";
+}
+
+.circle5::after {
+    position: absolute;
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 15px;
+    color: #333;
+    top: -3px;
+    left: -50px;
+    content: "2004";
 }
 
 .vl {
@@ -368,6 +438,377 @@ table
     bottom: -5px;
     background-color: #ccc;
     border-radius: 50%;
+}
+
+.teamlead,
+.diplom-in-design,
+.photoshop
+{
+    position: relative;
+    width: 200px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #5d6c79;
+    padding: 10px 10px;
+    border-radius: 3px;
+    text-align: right;
+    top: -275px;
+    left: 120px;
+}
+
+.teamlead::after
+{
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #5d6c79;
+    top: 20px;
+    left: 196px;
+}
+
+
+.teamlead h3, 
+.sr-designer h3, 
+.e-commerce123 h3, 
+.acacia h3,
+.diplom-in-design h3,
+.bachelors-in-art h3,
+.eaccp h3, 
+.photoshop h3,
+.web-design h3 
+{
+    font-family: 'MuseoSans-700', sans-serif;
+}
+
+.teamlead p, 
+.sr-designer p, 
+.e-commerce123 p, 
+.acacia p,
+.diplom-in-design p,
+.bachelors-in-art p,
+.photoshop p,
+.web-design p
+{
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 18px;
+}
+
+.sr-designer,
+.bachelors-in-art,
+.eaccp,
+.web-design
+{
+    position: relative;
+    width: 200px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #76869d;
+    padding: 10px 10px;
+    border-radius: 3px;
+    text-align: left;
+    top: -262px;
+    left: 425px;
+}
+
+.sr-designer::after {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #76869d;
+    top: 20px;
+    left: -6px;
+}
+
+.e-commerce123 {
+    position: relative;
+    width: 200px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #97a6bc;
+    padding: 10px 10px;
+    border-radius: 3px;
+    text-align: right;
+    top: -250px;
+    left: 130px;
+}
+
+.e-commerce123::after {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #97a6bc;
+    top: 20px;
+    left: 196px;
+}
+
+.acacia {
+    position: relative;
+    width: 185px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #999999;
+    padding: 10px 10px;
+    border-radius: 3px;
+    text-align: left;
+    top: -240px;
+    left: 425px;
+}
+
+.acacia::after {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #999999;
+    top: 20px;
+    left: -6px;
+}
+
+
+/* Education */
+
+.education {
+    width: 100%;
+    text-align: center;
+    height: 560px;
+}
+
+.master-multimedia {
+    position: relative;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 14px;
+    background-color: #619a45;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.master-multimedia::after {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #619a45;
+    top: 30px;
+    left: 120px;
+}
+
+.master-multimedia p,
+.diplom-in-design p,
+.diplom-in-design h3,
+.bachelors-in-art p,
+.bachelors-in-art h3,
+.eaccp h3,
+.photoshop p,
+.photoshop h3,
+.web-design p,
+.web-design h3,
+.intermediate h3
+{
+    margin: 0;
+}
+
+.master-multimedia p {
+    font-family: 'MuseoSans-300', sans-serif;
+    font-size: 20px;
+}
+
+.circle1edu::after {
+    position: absolute;
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 15px;
+    color: #333;
+    top: -3px;
+    left: 25px;
+    content: "2011";
+}
+
+.circle2edu {
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    padding-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+    border-radius: 50%;
+    background-color: #8c8c8c;
+    position: relative;
+}
+
+.circle3edu::after {
+    position: absolute;
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 15px;
+    color: #333;
+    top: -3px;
+    left: -50px;
+    content: "2004";
+}
+
+.circle4edu::after {
+    position: absolute;
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 15px;
+    color: #333;
+    top: -3px;
+    left: 25px;
+    content: "2003";
+}
+
+.circle5edu::after {
+    position: absolute;
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 15px;
+    color: #333;
+    top: -3px;
+    left: -50px;
+    content: "2002";
+}
+
+.vl-last-edu {
+    width: 8px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccc;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.diplom-in-design {
+    width: 210px;
+    background-color: #a4b980;
+    top: -330px;
+}
+
+.diplom-in-design::after {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #a4b980;
+    top: 20px;
+    left: 207px;
+}
+
+.bachelors-in-art {
+    width: 255px;
+    background-color: #9fc3c3;
+    top: -390px;
+}
+
+.bachelors-in-art::after {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #9fc3c3;
+    top: 20px;
+    left: -7px;
+}
+
+.eaccp {
+    width: 215px;
+    background-color: #d698b4;
+    top: -362px;
+}
+
+.eaccp::after {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #d698b4;
+    top: 20px;
+    left: -7px;
+}
+
+.photoshop {
+    width: 230px;
+    background-color: #85c9e5;
+    top: -348px;
+    left: 100px;
+}
+
+.photoshop::after {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #85c9e5;
+    top: 20px;
+    left: 227px;
+}
+
+.web-design {
+    width: 240px;
+    background-color: #ef8f6e;
+    top: -338px;
+}
+
+.web-design::after {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #ef8f6e;
+    top: 20px;
+    left: -7px;
+}
+
+.intermediate {
+    position: relative;
+    width: 145px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #999999;
+    padding: 10px 10px;
+    border-radius: 3px;
+    text-align: center;
+    top: -303px;
+    left: 305px;
+}
+
+.intermediate::after {
+    position: absolute;
+    font-family: 'MuseoSans-100', sans-serif;
+    font-size: 15px;
+    color: #333;
+    top: 48px;
+    left: 55px;
+    content: "2001";
+}
+
+.intermediate h3 {
+    font-family: 'MuseoSans-100', sans-serif;
+    letter-spacing: 1px;
 }
 
 /* End Main */
