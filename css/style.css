@@ -20,15 +20,10 @@
     font-family: 'MuseoSans-100', sans-serif;
 }
 
-.clearfix,
-.clearfix::after,
-.clearfix::before
-{
-    display: table;
-    content: "";
-}
 
 .clearfix::after {
+    display: table;
+    content: "";
     clear: both;
 }
 
@@ -75,8 +70,7 @@ header {
 }
 
 .image {
-    float: left;
-    margin-left: 407px;
+    float: right;
 }
 
 .image img {
